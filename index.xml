@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Script Guy</title>
-    <link>http://teeramaet.github.io/</link>
+    <link>//teeramaet.github.io/</link>
     <description>Recent content on The Script Guy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2023 18:58:11 +0800</lastBuildDate><atom:link href="http://teeramaet.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 18:58:11 +0800</lastBuildDate><atom:link href="//teeramaet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://teeramaet.github.io/post/markdown_syntax_guide/</link>
+      <link>//teeramaet.github.io/post/markdown_syntax_guide/</link>
       <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
       
-      <guid>http://teeramaet.github.io/post/markdown_syntax_guide/</guid>
+      <guid>//teeramaet.github.io/post/markdown_syntax_guide/</guid>
       <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
 H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
@@ -20,20 +20,20 @@ H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</de
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://teeramaet.github.io/post/lorem-ipsum/</link>
+      <link>//teeramaet.github.io/post/lorem-ipsum/</link>
       <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
       
-      <guid>http://teeramaet.github.io/post/lorem-ipsum/</guid>
+      <guid>//teeramaet.github.io/post/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip;
 What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>http://teeramaet.github.io/about/</link>
+      <link>//teeramaet.github.io/about/</link>
       <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
       
-      <guid>http://teeramaet.github.io/about/</guid>
+      <guid>//teeramaet.github.io/about/</guid>
       <description>Hi, I am khaopun! Welcome to our blog, dedicated to everything related to security! We created this platform with a passion for safeguarding individuals, organizations, and society from various threats. Here, we strive to provide you with a wealth of knowledge, insights, and resources to enhance your understanding of security and empower you to make informed decisions.</description>
     </item>
     
