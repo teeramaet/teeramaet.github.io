@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The Script Guy</title>
+    <link>http://teeramaet.githu.io/post/</link>
+    <description>Recent content in Posts on The Script Guy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2023 18:58:11 +0800</lastBuildDate><atom:link href="http://teeramaet.githu.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://teeramaet.githu.io/post/markdown_syntax_guide/</link>
+      <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
+      
+      <guid>http://teeramaet.githu.io/post/markdown_syntax_guide/</guid>
+      <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>http://teeramaet.githu.io/post/lorem-ipsum/</link>
+      <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
+      
+      <guid>http://teeramaet.githu.io/post/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip;
+What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
+    </item>
+    
+  </channel>
+</rss>
