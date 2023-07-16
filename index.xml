@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Script Guy</title>
+    <title>Teeramaet-Blog</title>
     <link>//teeramaet.github.io/</link>
-    <description>Recent content on The Script Guy</description>
+    <description>Recent content on Teeramaet-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 16 Feb 2023 18:58:11 +0800</lastBuildDate><atom:link href="//teeramaet.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>th</language>
+    <lastBuildDate>Sun, 16 Jul 2023 15:34:46 +0700</lastBuildDate><atom:link href="//teeramaet.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>//teeramaet.github.io/post/markdown_syntax_guide/</link>
-      <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
+      <title>สร้าง Blog ของตัวเอง โดยใช้ Hugo</title>
+      <link>//teeramaet.github.io/post/how-do-i-create-my-own-blog-using-hugo/</link>
+      <pubDate>Sun, 16 Jul 2023 15:34:46 +0700</pubDate>
       
-      <guid>//teeramaet.github.io/post/markdown_syntax_guide/</guid>
-      <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>//teeramaet.github.io/post/lorem-ipsum/</link>
-      <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
-      
-      <guid>//teeramaet.github.io/post/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip;
-What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
+      <guid>//teeramaet.github.io/post/how-do-i-create-my-own-blog-using-hugo/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -34,7 +22,10 @@ What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mol
       <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
       
       <guid>//teeramaet.github.io/about/</guid>
-      <description>Hi, I am khaopun! Welcome to our blog, dedicated to everything related to security! We created this platform with a passion for safeguarding individuals, organizations, and society from various threats. Here, we strive to provide you with a wealth of knowledge, insights, and resources to enhance your understanding of security and empower you to make informed decisions.</description>
+      <description>Hi, I am khaopun! สวัสดีครับ! ผมคือคนหนึ่งที่หลงใหลในเรื่อง security และ devops ถ้าถามว่าผมคือใครกันแน่ ผมก็คือคนที่รักในการเสริมสร้างความปลอดภัยให้กับทุกคน ไม่ว่าจะเป็นบุคคล องค์กร หรือสังคม
+ผมชอบสิ่งที่น่าสนใจและเต็มไปด้วยความท้าทาย เพราะการป้องกันอันตรายและความปลอดภัยนั้นต้องเติบโตไปพร้อมกับความเชี่ยวชาญที่มากขึ้นของคนที่ไม่ประสงค์ดี! ผมมีความกระตือรือร้นที่จะแบ่งปันความรู้ เสนอความเข้าใจ และเครื่องมือที่คุณต้องการ เพื่อให้คุณสามารถเข้าใจและตัดสินใจให้ถูกต้อง อย่างสนุกสนาน และไม่ซับซ้อน
+ถ้าคุณเชื่อว่า security และ devops คือเรื่องที่ไม่ได้เข้าใจยาก และไม่น่าเบื่อ คุณมาถูกที่แล้ว! พวกเราพร้อมที่จะเดินทางไปกับคุณในการสร้างและปกป้องโลกแห่งความปลอดภัยอย่างสนุกสนาน และเต็มไปด้วยความสำเร็จ!
+อย่าลืมติดตามบล็อกของเราตลอดเวลาเพื่อหาความรู้และเทคนิคใหม่ๆ ที่จะทำให้คุณเป็นผู้เชี่ยวชาญในเรื่อง security และ devops พร้อมกับการติดตามผลงานและปรับปรุงของเราอยู่เสมอ!</description>
     </item>
     
   </channel>
