@@ -1,4 +1,4 @@
-baseURL = "https://athul.github.io/"
+baseURL = "https://teeramaet.github.io/"
 languageCode = "en-us"
 title = "0x0nigiri"
 theme="archie"
@@ -56,3 +56,7 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
+
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
