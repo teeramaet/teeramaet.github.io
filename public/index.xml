@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0x0nigiri</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 0x0nigiri</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 0x0nigiri</copyright>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi! Nothing much to say.&#xA;Certifications TBC </description>
+    </item>
+    <item>
+      <title>How does randomness works?</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Entropy This is the dice pattern&#xA;Dice A: 1 1 1 1 6 6 6&#xA;Dice B: 1 4 2 7 3 1 5&#xA;Which dice are more random?&#xA;You might said Dice B</description>
+    </item>
+  </channel>
+</rss>
