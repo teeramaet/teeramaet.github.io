@@ -10,11 +10,11 @@
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/prng/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How does randomness works?</title>
+      <title>Fundamentals of protected.</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Entropy This is the dice pattern&#xA;Dice A: 1 1 1 1 6 6 6&#xA;Dice B: 1 4 2 7 3 1 5&#xA;Which dice are more random?&#xA;You might said Dice B</description>
+      <description>Linear combination นี่คือ vector 2 มิติ $$ \begin{bmatrix} a &amp;amp; b \\ c &amp;amp; d \end{bmatrix} $$&#xA;hello world $$ f(\alpha x + \beta y) = \alpha x f(x) + \beta y f(y) $$&#xA;for all n-vectors x, y, and all scalars α, β. This property is called superposition. A function that satisfies the superposition property is called linear.</description>
     </item>
   </channel>
 </rss>

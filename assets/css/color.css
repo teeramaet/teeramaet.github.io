@@ -1,0 +1,21 @@
+/*
+:root {
+  --color-primary: #dc143c;
+  --color-primary-hover: #b91c3c;
+  --color-border: #663399;
+  --color-callout: #1e90ff;
+  --color-text: #232333;
+  --color-text-muted: #737373;
+  --color-text-meta: #999999;
+  --color-background: #ffffff;
+  --color-background-code: #f1f1f1;
+  --color-background-pre: #ececec;
+  --color-background-toc: #ececec;
+  --color-background-draft: #f9f2f4;
+}
+*/
+:root {
+  --color-primary: #d20f39;
+  --color-text: #3a383a;
+  --color-background: #f5f5f4;
+}
