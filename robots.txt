@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teeramaet.github.io/sitemap.xml
