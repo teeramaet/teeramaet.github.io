@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "0x0nigiri"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+   description = "My awesome website"
+   copyright = "&copy; 2029 Teeramaet Bongkodmalee - All Rights Reserved"
+
+ [params.author]
+   name = "Teeramaet Bongkodmalee"
+   email = "teeramaet.b@gmail.com"
+   image = "img/profile.png"
+   imageQuality = 96
+   headline = ""
+   bio = "Just a security guy that loves math."
+   links = [
+     { email = "mailto:teeramaet.b@gmail.com" },
+     { github = "https://github.com/teeramaet" },
+     { instagram = "https://www.instagram.com/0x0nigiri" },
+     { linkedin = "https://linkedin.com/in/teeramaet" },
+   ]

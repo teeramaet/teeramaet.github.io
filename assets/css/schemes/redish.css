@@ -1,0 +1,48 @@
+:root {
+   /* =========================
+     Neutral — warm gray
+     ========================= */
+   --color-neutral: 255, 255, 255;
+   --color-neutral-50: 246, 245, 245;
+   --color-neutral-100: 236, 234, 234;
+   --color-neutral-200: 218, 215, 215;
+   --color-neutral-300: 192, 188, 188;
+   --color-neutral-400: 148, 143, 143;
+   --color-neutral-500: 108, 103, 103;
+   --color-neutral-600: 78, 74, 74;
+   --color-neutral-700: 55, 53, 53;
+   --color-neutral-800: 36, 35, 35;
+   --color-neutral-900: 20, 20, 20;
+
+   /* =========================
+     Primary — muted rose / wine
+     (slightly more saturated)
+     Base: #9a444d
+     ========================= */
+   --color-primary-50: 250, 241, 243;
+   --color-primary-100: 242, 226, 229;
+   --color-primary-200: 226, 198, 203;
+   --color-primary-300: 205, 158, 166;
+   --color-primary-400: 184, 115, 126;
+   --color-primary-500: 165, 86, 98;
+   --color-primary-600: 154, 68, 77;
+   /* #9a444d */
+   --color-primary-700: 132, 52, 62;
+   --color-primary-800: 102, 38, 47;
+   --color-primary-900: 72, 26, 33;
+
+   /* =========================
+     Secondary — supporting rose gray
+     (a touch more color, still subtle)
+     ========================= */
+   --color-secondary-50: 249, 244, 245;
+   --color-secondary-100: 240, 230, 233;
+   --color-secondary-200: 222, 206, 210;
+   --color-secondary-300: 198, 174, 179;
+   --color-secondary-400: 162, 133, 139;
+   --color-secondary-500: 128, 96, 102;
+   --color-secondary-600: 98, 71, 76;
+   --color-secondary-700: 70, 49, 53;
+   --color-secondary-800: 46, 32, 35;
+   --color-secondary-900: 28, 18, 20;
+}
