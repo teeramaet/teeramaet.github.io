@@ -1,0 +1,31 @@
+{
+  "name": "0x0nigiri-blog",
+  "version": "1.0.0",
+  "description": "Personal blog built with Eleventy, published via GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "start-ghpages": "npx @11ty/eleventy --serve --quiet",
+    "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+    "sync": "node scripts/sync-posts.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "cross-env": "^10.1.0",
+    "katex": "^0.16.27",
+    "luxon": "^3.7.2",
+    "markdown-it-texmath": "^1.0.0",
+    "prismjs": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "dependencies": {
+    "@zachleat/heading-anchors": "^1.0.5"
+  }
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+		{#- Theme: apply saved preference before first paint to avoid flash #}
+		<script>
+			(function() {
+				var theme = localStorage.getItem("theme");
+				if (theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
+				else if (theme === "light") document.documentElement.setAttribute("data-theme", "light");
+				// no stored preference → follow prefers-color-scheme (handled in CSS)
+			})();
+		</script>
+
+		{#- Fonts: Inconsolata (mono) + Sarabun (body, Thai support) — plummmm-style #}
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+
+		{#- Self-hosted KaTeX (rendered server-side, CSS only for styling) #}
+		<link rel="stylesheet" href="/katex/katex.min.css">
+
+		{#- Site CSS inlined via bundle #}
+		<style>{% include "css/index.css" %}</style>
+		<style>{% getBundle "css" %}</style>
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header class="site-header">
+			<p class="site-title"><a href="/">{{ metadata.title }}</a></p>
+			<button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+		</header>
+
+		<main id="main">
+			{{ content | safe }}
+		</main>
+
+		<footer class="site-footer">
+			<p>© {{ metadata.title }} · <a href="/feed/feed.xml">feed</a> · <a href="/tags/">tags</a></p>
+		</footer>
+
+		<script>
+			(function() {
+				var btn = document.getElementById("theme-toggle");
+				var root = document.documentElement;
+				function current() {
+					if (root.hasAttribute("data-theme")) return root.getAttribute("data-theme");
+					return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+				}
+				btn.addEventListener("click", function() {
+					var next = current() === "dark" ? "light" : "dark";
+					root.setAttribute("data-theme", next);
+					localStorage.setItem("theme", next);
+					btn.textContent = next === "dark" ? "☀" : "☾";
+				});
+				btn.textContent = current() === "dark" ? "☀" : "☾";
+			})();
+		</script>
+		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+{#- plummmm-style table of posts: title + date #}
+<table class="post-table">
+	<thead>
+		<tr>
+			<th>Blog</th>
+			<th class="date">Date</th>
+		</tr>
+	</thead>
+	<tbody>
+	{%- for post in postslist | reverse %}
+		<tr>
+			<td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
+			<td class="date"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("yyyy-MM-dd") }}</time></td>
+		</tr>
+	{%- endfor %}
+	</tbody>
+</table>
