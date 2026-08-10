@@ -7,8 +7,10 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 
-		{#- Theme: apply saved preference before first paint to avoid flash #}
-		<script>
+		{#- Theme: apply saved preference before first paint to avoid flash.
+		    eleventy:ignore keeps this inline — without it the bundle plugin
+		    hoists it into a deferred module script and dark mode flashes white. #}
+		<script eleventy:ignore>
 			(function() {
 				var theme = localStorage.getItem("theme");
 				if (theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
@@ -45,7 +47,7 @@
 			<p>© {{ metadata.title }} · <a href="/feed/feed.xml">feed</a> · <a href="/tags/">tags</a></p>
 		</footer>
 
-		<script>
+		<script eleventy:ignore>
 			(function() {
 				var btn = document.getElementById("theme-toggle");
 				var root = document.documentElement;
