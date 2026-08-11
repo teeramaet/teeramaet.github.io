@@ -10,7 +10,8 @@
     "start": "npx @11ty/eleventy --serve --quiet",
     "start-ghpages": "npx @11ty/eleventy --serve --quiet",
     "debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
-    "sync": "node scripts/sync-posts.js"
+    "sync": "node scripts/sync-posts.js",
+    "publish": "bash scripts/deploy.sh"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
@@ -23,6 +24,7 @@
     "luxon": "^3.7.2",
     "markdown-it-texmath": "^1.0.0",
     "prismjs": "^1.30.0",
+    "yaml": "^2.9.0",
     "zod": "^4.4.3"
   },
   "dependencies": {

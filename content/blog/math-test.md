@@ -2,8 +2,11 @@
 title: math test — KaTeX rendering
 description: Testing inline and display math.
 date: 2026-08-09
-tags: math
+tags:
+  - posts
+  - math
 ---
+
 Inline math: the famous identity $e^{i\pi} + 1 = 0$.
 
 Display math, Euler's formula:
