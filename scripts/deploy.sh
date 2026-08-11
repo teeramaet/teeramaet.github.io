@@ -23,8 +23,9 @@ fi
 git push -q origin main
 
 echo "==> Updating gh-pages branch"
+git worktree prune  # clear stale entries from interrupted runs
 WT=$(mktemp -d)
-trap 'rm -rf "$WT"' EXIT
+trap 'rm -rf "$WT"; git worktree prune' EXIT
 if git show-ref --verify --quiet refs/heads/gh-pages; then
   git worktree add -q "$WT" gh-pages
 else
