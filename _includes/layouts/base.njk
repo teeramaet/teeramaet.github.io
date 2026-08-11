@@ -7,6 +7,13 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 
+		{#- Favicons #}
+		<link rel="icon" href="/favicon.ico" sizes="any">
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<meta name="theme-color" content="#141414">
+
 		{#- Theme: apply saved preference before first paint to avoid flash.
 		    eleventy:ignore keeps this inline — without it the bundle plugin
 		    hoists it into a deferred module script and dark mode flashes white. #}
