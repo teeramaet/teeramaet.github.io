@@ -25,10 +25,16 @@ git push -q origin main
 echo "==> Updating gh-pages branch"
 WT=$(mktemp -d)
 trap 'rm -rf "$WT"' EXIT
-git worktree add -q "$WT" gh-pages
+if git show-ref --verify --quiet refs/heads/gh-pages; then
+  git worktree add -q "$WT" gh-pages
+else
+  # First run: gh-pages only exists on the remote — fetch and track it
+  git fetch -q origin gh-pages
+  git worktree add -q --track -b gh-pages "$WT" origin/gh-pages
+fi
 rsync -a --delete _site/ "$WT"/
 (cd "$WT" && git add -A && git commit -q -m "Deploy: $(date +%Y-%m-%d %H:%M)" || echo "    (no deploy changes)")
 git -C "$WT" push -q origin gh-pages
-git worktree remove "$WT"
+git worktree remove --force "$WT"
 
 echo "==> Done. Live in a minute: https://teeramaet.github.io"
