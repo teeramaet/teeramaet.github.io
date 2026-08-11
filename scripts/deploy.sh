@@ -34,7 +34,7 @@ else
   git worktree add -q --track -b gh-pages "$WT" origin/gh-pages
 fi
 rsync -a --delete --exclude=.git _site/ "$WT"/
-(cd "$WT" && git add -A && git commit -q -m "Deploy: $(date +%Y-%m-%d %H:%M)" || echo "    (no deploy changes)")
+(cd "$WT" && git add -A && git commit -q -m "Deploy: $(date '+%Y-%m-%d %H:%M')" || echo "    (no deploy changes)")
 git -C "$WT" push -q origin gh-pages
 git worktree remove --force "$WT"
 
