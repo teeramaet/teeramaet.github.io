@@ -5,6 +5,7 @@ date: 2026-08-09
 tags:
   - posts
   - math
+draft: true
 ---
 
 Inline math: the famous identity $e^{i\pi} + 1 = 0$.

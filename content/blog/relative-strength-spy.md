@@ -6,6 +6,7 @@ tags:
   - posts
   - trading
   - market
+draft: true
 ---
 
 Quick note on the daily screening workflow: rank candidates by relative strength
